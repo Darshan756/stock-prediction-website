@@ -22,6 +22,7 @@ function handleClick(){
 
           <button onClick={handleClick}>set stock</button>
           <p>{ `Stock: ${stockPrice.stock} Price:${stockPrice.price}` }</p>
+          <h1>Changed</h1>
 
     </>
   )
