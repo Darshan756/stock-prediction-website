@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-const Button = ({children,className}) => {
+const Button = ({children,className,url}) => {
   return (
     <>
-     <a className={className} href="">{children}</a>
+     <Link className={className} to={url}>{children}</Link>
      </>
   )
 }
