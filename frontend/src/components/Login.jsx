@@ -25,7 +25,7 @@ const handleLogin = async (e) => {
      localStorage.setItem('accessToken',response.data.access)
      localStorage.setItem('refreshToken',response.data.refresh)
      console.log('Login Successful!')
-     navigate('/')
+     navigate('/dashboard')
      setError('')
      setIsLoggedIn(true)
      
